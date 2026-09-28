@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-label="Agentic AI learning path: prompt and context, tools and MCP, RAG and memory, single agent, multi-agent systems, production">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b18"/><stop offset="0.6" stop-color="#141d45"/><stop offset="1" stop-color="#0c3350"/></linearGradient>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#9fb0d9"/></marker>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045"/></pattern>
+  </defs>
+  <rect width="1200" height="230" rx="18" fill="url(#bg)"/><rect width="1200" height="230" rx="18" fill="url(#grid)"/>
+
+<text x="40" y="46" font-family="Consolas, Menlo, monospace" font-size="15" fill="#7aa7ff" letter-spacing="3">THE AGENTIC AI LEARNING PATH</text>
+<rect x="40" y="80" width="160" height="110" rx="14" fill="#0b1020" stroke="#9fb0d9" stroke-width="2.5"/>
+<circle cx="62" cy="80" r="14" fill="#9fb0d9"/><text x="62" y="85" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#0b1020">1</text>
+<text x="120.0" y="120" text-anchor="middle" font-size="24">💬</text>
+<text x="120.0" y="150" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fff">Prompt &amp;</text>
+<text x="120.0" y="173" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#c9d4ff">context</text>
+<path d="M203 135 L233 135" stroke="#9fb0d9" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="236" y="80" width="160" height="110" rx="14" fill="#0b1020" stroke="#EA4335" stroke-width="2.5"/>
+<circle cx="258" cy="80" r="14" fill="#EA4335"/><text x="258" y="85" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#0b1020">2</text>
+<text x="316.0" y="120" text-anchor="middle" font-size="24">🔧</text>
+<text x="316.0" y="150" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fff">Tools</text>
+<text x="316.0" y="173" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#c9d4ff">&amp; MCP</text>
+<path d="M399 135 L429 135" stroke="#9fb0d9" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="432" y="80" width="160" height="110" rx="14" fill="#0b1020" stroke="#34A853" stroke-width="2.5"/>
+<circle cx="454" cy="80" r="14" fill="#34A853"/><text x="454" y="85" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#0b1020">3</text>
+<text x="512.0" y="120" text-anchor="middle" font-size="24">📚</text>
+<text x="512.0" y="150" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fff">RAG &amp;</text>
+<text x="512.0" y="173" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#c9d4ff">memory</text>
+<path d="M595 135 L625 135" stroke="#9fb0d9" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="628" y="80" width="160" height="110" rx="14" fill="#0b1020" stroke="#4285F4" stroke-width="2.5"/>
+<circle cx="650" cy="80" r="14" fill="#4285F4"/><text x="650" y="85" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#0b1020">4</text>
+<text x="708.0" y="120" text-anchor="middle" font-size="24">🤖</text>
+<text x="708.0" y="150" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fff">Single</text>
+<text x="708.0" y="173" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#c9d4ff">agent</text>
+<path d="M791 135 L821 135" stroke="#9fb0d9" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="824" y="80" width="160" height="110" rx="14" fill="#0b1020" stroke="#8250DF" stroke-width="2.5"/>
+<circle cx="846" cy="80" r="14" fill="#8250DF"/><text x="846" y="85" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#0b1020">5</text>
+<text x="904.0" y="120" text-anchor="middle" font-size="24">🕸️</text>
+<text x="904.0" y="150" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fff">Multi-agent</text>
+<text x="904.0" y="173" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#c9d4ff">systems</text>
+<path d="M987 135 L1017 135" stroke="#9fb0d9" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="1020" y="80" width="160" height="110" rx="14" fill="#0b1020" stroke="#FBBC05" stroke-width="2.5"/>
+<circle cx="1042" cy="80" r="14" fill="#FBBC05"/><text x="1042" y="85" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#0b1020">6</text>
+<text x="1100.0" y="120" text-anchor="middle" font-size="24">🚀</text>
+<text x="1100.0" y="150" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fff">Production</text>
+<text x="1100.0" y="173" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="12" fill="#c9d4ff">evals · traces · cost</text>
+<path id="lp" d="M120 205 L1100 205" stroke="#ffffff" stroke-opacity="0.12" stroke-width="3"/><circle r="5" fill="#ffffff"><animateMotion dur="5s" repeatCount="indefinite"><mpath href="#lp"/></animateMotion></circle>
+</svg>

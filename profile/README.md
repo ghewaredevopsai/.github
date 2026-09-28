@@ -24,14 +24,9 @@
 
 ## 🗺️ The agentic AI learning path
 
-```mermaid
-flowchart LR
-    A["💬 Prompt &<br/>context"] --> B["🔧 Tools<br/>& MCP"]
-    B --> C["📚 RAG &<br/>memory"]
-    C --> D["🤖 Single<br/>agent"]
-    D --> E["🕸️ Multi-agent<br/>systems"]
-    E --> F["🚀 Production<br/>evals · traces · cost"]
-```
+<p align="center">
+  <img src="learning-path.svg" alt="The agentic AI learning path: 1 prompt and context, 2 tools and MCP, 3 RAG and memory, 4 single agent, 5 multi-agent systems, 6 production with evals, traces and cost" width="100%"/>
+</p>
 
 Every course below covers part of this path. The 5-day comprehensive course covers all of it.
 
