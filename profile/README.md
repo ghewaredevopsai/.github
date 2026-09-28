@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.svg" alt="Gheware DevOps AI: build production-ready AI agents in five days" width="100%"/>
+  <img src="banner.svg" alt="Gheware DevOps AI: build production-ready AI agents in five days. A supervisor agent routes work to planner, tools, memory and evaluator agents." width="100%"/>
 </p>
 
 <p align="center">
@@ -11,9 +11,9 @@
 
 ---
 
-### Hands-on engineering training for teams that ship AI
+### Hands-on agentic AI training for teams that ship agents
 
-**Gheware DevOps AI** teaches enterprise engineering teams to build, test and run AI agents in production. Every course is built around labs: participants write the code, deploy it and watch it run.
+**Gheware DevOps AI** teaches enterprise engineering teams to build AI agents that plan, call tools, remember and check their own work, and then to evaluate, trace and run those agents in production. Every course is built around labs: participants write the agent, deploy it and watch it work.
 
 - 🎓 **5,000+ engineers trained**, with a **4.91 / 5** rating from Oracle cohorts
 - 🧪 **119 hands-on labs**, run on a Kubernetes lab platform we built and operate on our own GPU hardware
@@ -21,6 +21,19 @@
 - 📂 **Open course material**: the outlines, decks, labs and solutions in this organisation are public
 
 ---
+
+## 🗺️ The agentic AI learning path
+
+```mermaid
+flowchart LR
+    A["💬 Prompt &<br/>context"] --> B["🔧 Tools<br/>& MCP"]
+    B --> C["📚 RAG &<br/>memory"]
+    C --> D["🤖 Single<br/>agent"]
+    D --> E["🕸️ Multi-agent<br/>systems"]
+    E --> F["🚀 Production<br/>evals · traces · cost"]
+```
+
+Every course below covers part of this path. The 5-day comprehensive course covers all of it.
 
 ## 🤖 Agentic AI courses
 
@@ -41,7 +54,7 @@
 
 ## 🛠️ Practice codebases
 
-Labs run against realistic, test-driven codebases instead of toy snippets:
+Participants point their agents at realistic, test-driven codebases instead of toy snippets:
 
 | Codebase | Used in |
 |---|---|
@@ -49,32 +62,26 @@ Labs run against realistic, test-driven codebases instead of toy snippets:
 | [**Meridian Freight Desk**](https://github.com/ghewaredevopsai/meridian-freight) | *Prompt & Context Engineering* and *Token Optimization*: a standard-library-only service with 28 tests |
 | [**Global Bank**](https://github.com/brainupgrade-in/global-bank-platform) | *Agentic ADLC*: a 7-repo microservices fleet maintained by agentic workflows |
 
-## ☸️ DevOps & platform engineering
+## ☸️ The platform under the agents
 
-We also teach **Kubernetes** (CKA, CKAD, CKS), **Docker**, **CI/CD** with GitHub Actions and Jenkins, **GitOps**, and **observability** with Prometheus and Grafana. The Git and GitHub lab repos in this organisation (`git-rebase`, `git-cherry-pick`, `codeowners`, `github-selfhostedrunner` and others) come from those courses.
+An agent is only as reliable as what it runs on, so we also teach **Kubernetes** (CKA, CKAD, CKS), **Docker**, **CI/CD** with GitHub Actions and Jenkins, **GitOps**, and **observability** with Prometheus and Grafana. The Git and GitHub lab repos in this organisation (`git-rebase`, `git-cherry-pick`, `codeowners`, `github-selfhostedrunner` and others) come from those courses.
 
 ---
 
-## 🧰 Stack we teach
+## 🧱 The agent stack we teach
 
-<p>
-<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
-<img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=anthropic&logoColor=white"/>
-<img src="https://img.shields.io/badge/RAG-ChromaDB-FF6F00?style=flat-square"/>
-<img src="https://img.shields.io/badge/Langfuse-tracing-0A0A0A?style=flat-square"/>
-<img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
-<img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white"/>
-<img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white"/>
-</p>
+| Layer | What participants use |
+|---|---|
+| **🧠 Reasoning** | <img src="https://img.shields.io/badge/LLMs-open%20%26%20hosted-615CED?style=flat-square"/> <img src="https://img.shields.io/badge/LiteLLM-gateway-6E56CF?style=flat-square"/> <img src="https://img.shields.io/badge/Token-optimisation-8250DF?style=flat-square"/> |
+| **🕸️ Orchestration** | <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/> <img src="https://img.shields.io/badge/Multi--agent-patterns-0E8A16?style=flat-square"/> |
+| **🔧 Tools & protocols** | <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=anthropic&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub%20Copilot-coding%20agent-000000?style=flat-square&logo=githubcopilot&logoColor=white"/> |
+| **📚 Memory & knowledge** | <img src="https://img.shields.io/badge/RAG-ChromaDB-FF6F00?style=flat-square"/> <img src="https://img.shields.io/badge/Context-engineering-D97757?style=flat-square"/> |
+| **🛡️ Guardrails & evals** | <img src="https://img.shields.io/badge/Human-in--the--loop-2EA44F?style=flat-square"/> <img src="https://img.shields.io/badge/Eval%20sets-pass--rate-8250DF?style=flat-square"/> |
+| **🔭 Observability** | <img src="https://img.shields.io/badge/Langfuse-traces-0A0A0A?style=flat-square"/> <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white"/> <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white"/> |
+| **☸️ Runtime** | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/> |
 
 ---
 
 <p align="center">
-  <b>Planning training for your team?</b> Visit <a href="https://devops.gheware.com">devops.gheware.com</a>
+  <b>Want your team shipping agents?</b> Visit <a href="https://devops.gheware.com">devops.gheware.com</a>
 </p>
