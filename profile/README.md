@@ -57,6 +57,7 @@ We also teach **Kubernetes** (CKA, CKAD, CKS), **Docker**, **CI/CD** with GitHub
 
 ## 🧰 Stack we teach
 
+<p>
 <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
 <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=anthropic&logoColor=white"/>
@@ -70,6 +71,7 @@ We also teach **Kubernetes** (CKA, CKAD, CKS), **Docker**, **CI/CD** with GitHub
 <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
 <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white"/>
 <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white"/>
+</p>
 
 ---
 
